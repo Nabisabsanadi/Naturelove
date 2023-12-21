@@ -1,0 +1,120 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+	margin: 0  auto;
+	width: 100%;
+}
+.main{
+	width: 100%;
+	float: left;
+	height: 100vh;
+	background: linear-gradient(rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)),url('2.jpg');
+	background-size: cover;
+	overflow: hidden;
+}
+article{
+	width: 13.5%;
+	margin-left:6% ;
+	background-color: rgba(10, 199, 0, .25);
+	display: block;
+	float: left;
+	text-align: center;
+	color: white;
+	padding: 50px 50px 0px 50px;
+	margin-top:200px;
+	height: 800px;
+	font-size: 15px;
+	border-radius:40px 40px 0px 0px ;
+	transition:all 0.8s;
+	line-height: 20px;
+	box-shadow:  10px 10px 10px 2px black;
+}
+article:hover{
+	background-color: #fff;
+	color: #000;
+	margin-top: 100px;
+
+}
+.content{
+	width: 100%;
+	float: lef;
+}
+.i1{
+	font-size: 60px;
+	padding-bottom:10px;
+}
+nav{
+	display: flex;
+	background-color: rgba(0, 0, 0, .6);
+	align-items: center;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	color: white;
+	padding: 14px  25px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 17px;
+	font-family: segoe Ui;
+	transition: 0.3s;
+}
+a:hover{
+	color: #DF0C6D;
+}
+.logo{
+	color: white;
+	cursor: pointer;
+	font-size: 30px;
+	border-bottom: 2px solid #05F275 ;
+	transition: 0.5s;
+	margin-left: 10px;
+}
+.logo:hover{
+	border-bottom: 2px solid white ;
+}
+.head{
+	color: white;
+	margin-left: 40px;
+	font-size: 47px;
+	padding-top: 30px;
+	font-family: Corbel;
+}
+.head1{
+	padding-top: 30px;
+/*	margin-top: 20px;*/
+	color: white;
+	margin-left: 40px;
+	font-size: 30px;
+	font-family: Corbe;
+}
+input{
+	width: 200px;
+	height: 25px;
+	margin-left: 90px;
+	border:2px solid #DF0C6D;
+	background-color:#E6EBE8 ;
+	border-radius: 10px;
+	padding-left: 5px;
+}
+.btn{
+	margin-left:4px ;
+	border:2px solid #DF0C6D;
+	background-color:#E6EBE8 ;
+	padding:5px 14px ;
+	border-radius: 10px;
+	font-family: Corbe;
+	cursor: pointer;
+	transition: 0.8s;
+	font-size:13px;
+}
+.btn:hover{
+	color: #F500AC ;
+}
+::placeholder{
+	color: red;
+}
